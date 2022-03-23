@@ -10,7 +10,7 @@ from datadog_api_client.v1.model.series import Series
 configuration = Configuration(
     host = "https://api.datadoghq.com"
 )
-configuration.api_key['apiKeyAuth'] = 'd7462bee7cd1e9b787301c15fcd5ae30'
+configuration.api_key['apiKeyAuth'] = ''
 host = os.uname()[1]
 
 def submit_metric(metric, type, tag, value):
